@@ -1,0 +1,88 @@
+@media(max-width: 768px) {
+    .index-content .content-title {
+        font-size: 28px !important;
+    }
+    .index-brand .brand-title {
+        font-size: 28px !important;
+    }
+
+}
+@media screen and (min-width:768px) and (max-width:1024px){
+    .card .details{
+        padding-left:0 !important
+    }
+    .card .details h2,.card .details p{
+        text-align: center;
+
+    }
+}
+
+
+/* 轮播图 */
+
+#index-carousel {
+    top: -66px;
+    left: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none !important;
+}
+
+
+/* 主页内容 */
+
+.index-content .content-title {
+    color: #005dac;
+    margin-top: -8px;
+    font-size: 40px;
+}
+
+
+/* card样式 */
+
+.card {
+    margin-top: 124px;
+}
+
+.card .logo img {
+    margin: 0 auto;
+}
+
+.card .details {
+    padding-top: 70px;
+}
+
+.card .details h2 a {
+    font-size: 38px;
+    color: #005dac;
+}
+
+.card .details h2 a:hover {
+    color: #275478;
+}
+
+.card .details p {
+    color: #959595;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 0;
+}
+
+
+/* card-reverse样式 */
+
+.card-reverse .details {
+    padding-left: 100px;
+}
+
+
+/* brand样式 */
+
+.index-brand .brand-title {
+    color: #005dac;
+    margin-bottom: 50px;
+    margin-top: 120px;
+    font-size: 38px;
+}

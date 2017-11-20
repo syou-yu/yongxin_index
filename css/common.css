@@ -1,0 +1,173 @@
+/* 居中container */
+
+.public-container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1170px;
+}
+
+
+/* 导航栏 */
+
+@media (max-width: 1366px) {
+    .public-container {
+        width: auto;
+    }
+}
+
+.navbar-default {
+    position: relative;
+    height: 66px;
+    margin-bottom: 0 !important;
+    background: none !important;
+    border: none !important;
+    z-index: 999;
+}
+
+.navbar-brand img {
+    width: 111px;
+    height: 33px;
+}
+
+.navbar .navbar-right {
+    margin-right: 15px;
+}
+
+.navbar-left li a:hover,
+.navbar-right li a:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+.navbar .navbar-left li a,
+.navbar .navbar-right li a {
+    color: #fff !important;
+    line-height: 36px !important;
+    font-size: 16px !important;
+}
+
+.navbar-header .navbar-toggle {
+    margin-top: 16px;
+}
+
+
+/* 页脚信息 */
+
+.footer {
+    height: 370px;
+    background: #26475f;
+    margin-top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-logo {
+    text-align: center;
+    padding-top: 34px;
+    font-family: 微软雅黑;
+}
+
+.footer-logo>img {
+    width: 45px;
+    height: 45px;
+}
+
+.footer-logo h4 {
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 18px;
+}
+
+.footer-logo p.footer-phone,
+.footer-logo p.footer-email {
+    text-align: left;
+    text-indent: 15px;
+    font-family: helvetica;
+    width: 172px;
+    margin: 0 auto 10px;
+}
+
+.footer-logo p.footer-phone img,
+.footer-logo p.footer-email img {
+    padding-right: 10px;
+    position: relative;
+    top: -1px;
+}
+
+.footer-link {
+    padding-top: 39px;
+    padding-left: 60px;
+}
+
+.footer-link dt {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.footer-link dd {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.footer-link dd a {
+    color: #fff;
+}
+
+.footer-link dd a:hover {
+    text-decoration: underline;
+}
+
+.footer-weixin {
+    padding-top: 70px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.footer-weixin-img {
+    width: 101px;
+    height: 99px;
+}
+
+.footer-weixin p {
+    line-height: 40px;
+    text-align: center;
+    text-indent: 0;
+}
+
+.friend-link span {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.friend-link a {
+    color: #fff;
+    padding: 0 11px;
+    font-size: 12px;
+}
+
+.friend-link {
+    margin: 24px auto 0;
+    font-size: 12px;
+    line-height: 50px;
+}
+
+.copy {
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: Helvetica;
+}
+
+.copy p {
+    margin: 0;
+}
+
+.beian {
+    color: #fff;
+}
+
+
+/* footer end */

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <!--  Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- 侧滑导航 -->
+    <div id="mobile-menu" class="mobile-nav visible-xs visible-sm hide-nav">
+        <div class="close-button hide-nav">
+            <span class="glyphicon glyphicon-remove"></span>
+        </div>
+        <ul class="inside">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">联保服务</a></li>
+            <li><a href="#">系统应用</a></li>
+            <li><a href="#">用心学院</a></li>
+            <li><a href="#">用心商城</a></li>
+            <li><a href="#">加入用心</a></li>
+            <li><a href="#">关于用心</a></li>
+            <li><a href="#">登录</a></li>
+            <li><a href="#">下载</a></li>
+            <li><a href="#">使用条款</a></li>
+        </ul>
+    </div>
+    <!-- 侧滑导航结束 -->
+
+    <!-- 导航条 -->
+    <nav class="navbar navbar-default">
+        <div class=" public-container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" id="mobile-nav-taggle">
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#"><img src="./images/LOGO.png" alt=""></a>
+            </div>
+            <!-- 左导航列表 -->
+            <ul class="nav navbar-nav navbar-left hidden-xs ">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">联保服务</a></li>
+                <li><a href="#">系统应用</a></li>
+                <li><a href="#">用心学院</a></li>
+                <li><a href="#">用心商城</a></li>
+            </ul>
+            <!-- 右导航列表 -->
+            <ul class="nav navbar-nav navbar-right hidden-xs hidden-sm">
+                <li><a href="#">下载</a></li>
+                <li><a href="#">加入用心</a></li>
+                <li><a href="#">关于用心</a></li>
+                <li><a href="#">登录</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 结束导航条 -->
+
+    <!-- 轮播banner -->
+    <div id="index-carousel" class="carousel slide" data-ride="carousel">
+        <!-- 圆点选择标志 -->
+        <ol class="carousel-indicators">
+            <li data-target="#index-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#index-carousel" data-slide-to="1"></li>
+            <li data-target="#index-carousel" data-slide-to="2"></li>
+            <li data-target="#index-carousel" data-slide-to="3"></li>
+            <li data-target="#index-carousel" data-slide-to="4"></li>
+        </ol>
+
+        <!-- 轮播图图片设置 -->
+        <div class="carousel-inner " role="listbox">
+            <div class="item active">
+                <img src="./images/banner1.jpg" alt="..." class="hidden-xs">
+                <img src="./images/banner1-xs.jpg" alt="..." class="visible-xs">
+            </div>
+            <div class="item">
+                <img src="./images/banner2.jpg" alt="..." class="hidden-xs">
+                <img src="./images/banner2-xs.jpg" alt="..." class="visible-xs">
+            </div>
+            <div class="item">
+                <img src="./images/banner3.jpg" alt="..." class="hidden-xs">
+                <img src="./images/banner3-xs.jpg" alt="..." class="visible-xs">
+            </div>
+            <div class="item">
+                <img src="./images/banner4.jpg" alt="..." class="hidden-xs">
+                <img src="./images/banner4-xs.jpg" alt="..." class="visible-xs">
+            </div>
+            <div class="item">
+                <img src="./images/banner5.jpg" alt="..." class="hidden-xs">
+                <img src="./images/banner5-xs.jpg" alt="..." class="visible-xs">
+            </div>
+
+            <!-- 左右控制按钮 -->
+            <a class="left carousel-control" href="#index-carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#index-carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- 结束轮播banner -->
+
+    <!-- 主页内容 -->
+    <div class="index-content">
+        <div class="public-container">
+            <h1 class="content-title text-center">更放心的企业服务解决方案</h1>
+            <!-- 联保服务 -->
+            <div class="row lianbao card hidden-xs ">
+                <div class="logo col-md-6 col-sm-12">
+                    <img src="./images/lianbao.png" alt="" class="img-responsive">
+                </div>
+                <div class="details col-md-6 col-sm-12">
+                    <h2><a href="#">联保服务</a></h2>
+                    <p>全国优质厨卫联保网点随时待命，覆盖全国95%县区</p>
+                    <p>24小时解决上门服务</p>
+                </div>
+            </div>
+            <!-- 企业管理 -->
+            <div class="row qiye card card-reverse hidden-xs">
+                <div class="logo col-md-6 col-md-push-6 col-sm-12">
+                    <img src="./images/qiye.png" alt="" class="img-responsive">
+                </div>
+                <div class="details col-md-6 col-md-pull-6 col-sm-12">
+                    <h2><a href="#">企业管理</a></h2>
+                    <p>系统应用为服务管理效率加速，工单进度一览无遗</p>
+                    <p>个性化定制满足企业真正需求</p>
+                </div>
+            </div>
+            <!-- 新零售 -->
+            <div class="row qiye card hidden-xs">
+                <div class="logo col-md-6 col-sm-12">
+                    <img src="./images/lingshou.png" alt="" class="img-responsive">
+                </div>
+                <div class="details col-md-6 col-sm-12">
+                    <h2><a href="#">新零售</a></h2>
+                    <p>拥有独立品牌商城，产品+服务共创畅销市场渠道</p>
+                    <p>一次解决企业库存和服务烦恼</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 结束主页内容 -->
+
+    <!-- 品牌展示 -->
+    <div class="index-brand ">
+        <div class="public-container">
+            <h1 class="brand-title text-center">众多品牌和机构选择用心</h1>
+            <div class="brand-img row">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand1.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand2.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand3.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand4.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand5.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand6.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand7.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand8.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand9.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand10.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand11.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand12.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand13.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand14.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand15.png" alt="">
+                <img class="col-md-3 col-sm-4 col-xs-6 img-responsive" src="./images/brand16.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 品牌展示结束 -->
+    <!-- footer信息 -->
+    <div class="footer">
+        <div class="public-container">
+            <div class="row">
+                <div class="col-sm-3 footer-logo col-xs-8">
+                    <img src="./images/footer-logo.png" alt="">
+                    <h4>用心，让您更放心</h4>
+                    <p class="footer-phone text-nowrap">
+                        <img src="./images/f-phone.png" alt="">0757-29838888
+                    </p>
+                    <p class="footer-email text-nowrap"><img src="./images/f-email.png" alt="">service@yonxin.com</p>
+                </div>
+                <div class="col-sm-6 footer-link hidden-xs">
+                    <dl class="col-sm-4">
+                        <dt>产品</dt>
+                        <dd><a href="http://mall.yonxin.com/">用心商城</a></dd>
+                        <dd><a href="http://edu.yonxin.com/">用心学院</a></dd>
+                        <dd><a href="http://as.yonxin.com/">工单系统</a></dd>
+                        <dd><a href="http://ms.yonxin.com/">用心寻味</a></dd>
+                    </dl>
+                    <dl class="col-sm-4">
+                        <dt>关于</dt>
+                        <dd><a href="http://www.yonxin.com/about">关于我们</a></dd>
+                        <dd><a href="http://www.yonxin.com/job">加入我们</a></dd>
+                        <dd><a href="http://www.yonxin.com/term">使用条款</a></dd>
+                        <dd><a href="http://www.yonxin.com/news">用心资讯</a></dd>
+                    </dl>
+                    <dl class="col-sm-4">
+                        <dt>支持</dt>
+                        <dd><a href="http://www.yonxin.com/download/index#question">常见问题</a></dd>
+                        <dd><a href="http://www.yonxin.com/download/index#download">下载</a></dd>
+                    </dl>
+                </div>
+                <div class="col-sm-2 footer-weixin col-xs-4">
+                    <img src="./images/f-weixin.jpg" alt="" class="footer-weixin-img">
+                    <p class="text-nowrap">微信公众号</p>
+                </div>
+            </div>
+            <div class="row friend-link hidden-xs text-center">
+                <span class="text-nowrap">友情链接</span>
+                <a href="http://www.chinahardware.org.cn/" target="_blank">中国五金制品协会</a>
+                <b>|</b>
+                <a href="http://www.gdeacc.com/" target="_blank">广东省家电商会</a>
+                <b>|</b>
+                <a href="http://www.sdhacc.org/" target="_blank">顺德家电商会</a>
+                <b>|</b>
+                <a href="http://www.sgacc.cn/" target="_blank">顺德燃气具商会</a>
+            </div>
+            <div class="row text-right copy hidden-xs">
+                Copyright©2017广东用心网络科技有限公司<a href="http://www.miibeian.gov.cn/" target="_blank" class="beian">粤ICP备15074374号-1</a>
+            </div>
+            <div class="row text-center copy visible-xs">
+                <p>Copyright©2017广东用心网络科技有限公司</p>
+                <p><a href="http://www.miibeian.gov.cn/" target="_blank" class="beian">粤ICP备15074374号-1</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- footer信息结束 -->
+</body>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="./js/control.js"></script>
+<!--  Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</html>
